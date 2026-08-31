@@ -37,19 +37,31 @@ was still rising in the last tested decade), not to uncorrected
 truncation bias.
 
 **This exclusion claim does not hold.** H-137 (2026-08-07) and E-002
-(2026-08-09) show the estimator above is itself biased by 0.038 on a
-process of known exponent, more than the gap Δ=0.027 between the two
-disputed values, so a raw 0.639 reading was never evidence against
-either prediction: it is close to what a process of exponent 0.650919
-returns on this same estimator. E-002 calibrates the bias out with
-matched synthetic controls sharing the arithmetic tree's branching and
-sibling-spacing law: at a checkpoint decade where the bias has fallen
-below 0.003, the arithmetic tree's reading lands inside the band of
-three independent constructions of exponent 0.650919 and 0.0282 from a
-construction of exponent 0.678, with 95% bootstrap interval
-[0.0268, 0.0297] on that difference. A ratio in band-widths stood here
-until round 19 measured the band's own interval and round 20 (R20-01)
-found the withdrawn ratio still alive in five files outside main.tex. See H-001 for
+(2026-08-09) show the same estimator reading 0.038 below the assigned
+pressure target of an unconstrained control, more than the 0.027081
+that separates the two disputed values, so a raw 0.639 reading was
+never evidence against either prediction. Calling that difference a
+bias requires equality between a control's realized exponent and its
+assigned target, which the paper states and does not prove; read as a
+distance, it is close to what the estimator returns on a control
+assigned 0.650919.
+
+E-002 calibrates against matched synthetic controls that share the
+arithmetic tree's branching and sibling-spacing law. The current
+experiment uses four controls assigned target 0.650919 and two assigned
+0.678. At the deepest matched checkpoint decade the arithmetic tree
+reads 0.64926, inside the span [0.64738, 0.65122] of the first four,
+and 0.02432 below the lower of the two assigned 0.678, with 95% joint
+bootstrap interval [0.0208, 0.0273] on that difference, the smaller of
+the two 0.678 readings being taken inside each resample.
+
+Until the second 0.678 calibrator existed this paragraph reported a
+band of three constructions and a difference of 0.0282 with interval
+[0.0268, 0.0297], and a ratio in band-widths on top of that. The ratio
+was withdrawn in round 19, when the band's own interval was measured,
+and round 20 (R20-01) found it still alive in five files outside
+main.tex. The 0.0282 figure survives in the paper only as the gap
+against the retuned relaxation alone, never as the headline. See H-001 for
 the full history, `../E-002-kl-volkov-window-calibration/` for the
 calibrated experiment, and H-001 also for a necessary correction to an
 earlier H-109 claim (the "1.547 vs 1.5363" Hill estimator cited there

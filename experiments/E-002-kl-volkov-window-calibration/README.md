@@ -79,7 +79,7 @@ residue or a draw, and nothing else differs:
   advance by `c = ((2^d-1)/q) mod q`, which is what the arithmetic tree
   does exactly (H-002).
 - `cycq qval`: the `cyc` structure with the value denominator replaced by
-  a real `qval`, so the exponent becomes tunable. It solves
+  a real `qval`, so the annealed pressure target becomes tunable. It solves
   `qval^alpha = q(2^alpha - 1)`: `qval = 5.00000` gives 0.650919 and
   `qval = 5.05398` gives 0.678.
 - `iidq qval`: to `cycq` what `iid` is to `cyc`. Same tunable `qval`, but
