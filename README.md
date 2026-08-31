@@ -1,5 +1,7 @@
 # Reproducibility deposit: the accelerated 5x+1 predecessor-count exponent
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22182794.svg)](https://doi.org/10.5281/zenodo.22182794)
+
 Code, data and outputs behind every number in the paper *A calibrated
 computational study of the accelerated 5x+1 predecessor-count exponent*
 (Renato Augusto Tavares, Universidade Federal de Goias).
