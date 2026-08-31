@@ -1,0 +1,21 @@
+
+=== q=3  d=ord_q(2)=2  scalar alpha_- = 1.000000000 ===
+    H-002 constant c = ((2^d-1)/q) mod q = 1   (invertible)
+    K=2: type map mod q^2=9 is NOT well defined (2664 clashes)  (6 residues seen)
+    -> refusing to build a matrix on an ill-defined type map
+    K=3: type map mod q^3=27 is NOT well defined (2664 clashes)  (18 residues seen)
+    -> refusing to build a matrix on an ill-defined type map
+
+=== q=5  d=ord_q(2)=4  scalar alpha_- = 0.650918640 ===
+    H-002 constant c = ((2^d-1)/q) mod q = 3   (invertible)
+    K=2: type map mod q^2=25 is NOT well defined (3200 clashes)  (20 residues seen)
+    -> refusing to build a matrix on an ill-defined type map
+    K=3: type map mod q^3=125 is NOT well defined (3200 clashes)  (100 residues seen)
+    -> refusing to build a matrix on an ill-defined type map
+
+=== q=7  d=ord_q(2)=3  scalar alpha_- = 0.373501034 ===
+    H-002 constant c = ((2^d-1)/q) mod q = 1   (invertible)
+    K=2: type map mod q^2=49 is NOT well defined (3412 clashes)  (21 residues seen)
+    -> refusing to build a matrix on an ill-defined type map
+    K=3: type map mod q^3=343 is NOT well defined (3412 clashes)  (147 residues seen)
+    -> refusing to build a matrix on an ill-defined type map

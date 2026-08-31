@@ -1,0 +1,33 @@
+
+=== q=3  d=2  scalar alpha_- = 1.000000000  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (6 parent classes mod 9)
+     K=2: CLOSES   (18 parent classes mod 27)
+     K=3: CLOSES   (54 parent classes mod 81)
+  Q2 fertility pattern from u mod q^2=9: CLOSES  (6 classes)
+  Q3 child-type spread given parent type: 6 parent types, mean max-deviation 0.0001, worst 0.0003  (0 = perfectly uniform)
+  matrix (jmax=6): no sign change, ends (1.2634411395725516, 5.128663484210705e-05)
+  matrix (jmax=12): no sign change, ends (1.6922824483650407, 0.00029747514866551583)
+  matrix (jmax=24): no sign change, ends (1.7889267629082335, 0.00029753577045354973)
+
+=== q=5  d=4  scalar alpha_- = 0.650918640  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (20 parent classes mod 25)
+     K=2: CLOSES   (100 parent classes mod 125)
+     K=3: CLOSES   (500 parent classes mod 625)
+  Q2 fertility pattern from u mod q^2=25: CLOSES  (20 classes)
+  Q3 child-type spread given parent type: 20 parent types, mean max-deviation 0.0000, worst 0.0000  (0 = perfectly uniform)
+  matrix (jmax=10): 20 types, Perron root s = 0.650918591   (s - alpha_-) = -0.000000049
+  matrix (jmax=20): 20 types, Perron root s = 0.650918640   (s - alpha_-) = -0.000000000
+  matrix (jmax=40): 20 types, Perron root s = 0.650918640   (s - alpha_-) = -0.000000000
+
+=== q=7  d=3  scalar alpha_- = 0.373501034  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (21 parent classes mod 49)
+     K=2: CLOSES   (147 parent classes mod 343)
+     K=3: CLOSES   (1029 parent classes mod 2401)
+  Q2 fertility pattern from u mod q^2=49: CLOSES  (21 classes)
+  Q3 child-type spread given parent type: 21 parent types, mean max-deviation 0.0010, worst 0.0026  (0 = perfectly uniform)
+  matrix (jmax=14): 21 types, Perron root s = 0.373511398   (s - alpha_-) = +0.000010363
+  matrix (jmax=28): 21 types, Perron root s = 0.373528737   (s - alpha_-) = +0.000027703
+  matrix (jmax=56): 21 types, Perron root s = 0.373528738   (s - alpha_-) = +0.000027703

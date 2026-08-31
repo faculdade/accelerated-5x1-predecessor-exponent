@@ -1,0 +1,29 @@
+q=5   alpha_minus = 0.650919   (KL eta_5,BP)
+exact annealed local slope  d log10 M / d log10 t, per decade of x/u0
+
+ t=log10(x/u0)   slope on [t,t+1]  deficit vs alpha-
+             1           0.669597          -0.018678
+             2           0.655359          -0.004440
+             3           0.651746          -0.000827
+             4           0.650787           0.000132
+             5           0.650656           0.000263
+             6           0.650790           0.000129
+             7           0.650946          -0.000028
+             8           0.651039          -0.000120
+            10           0.651046          -0.000128
+            12           0.650981          -0.000063
+            15           0.650910           0.000008
+            20           0.650872           0.000046
+            30           0.650910           0.000008
+            50           0.650906           0.000013
+            80           0.650939          -0.000021
+           120           0.650908           0.000011
+           200           0.650914           0.000004
+           350           0.650918           0.000001
+           600           0.650919          -0.000001
+          1000           0.650918           0.000001
+
+KL vs Volkov separation Delta = 0.027081
+  local slope comes within Delta = 0.02708 of alpha_- at t ~ 1, i.e. x/u0 ~ 10^1
+  local slope comes within Delta/2 = 0.01354 of alpha_- at t ~ 1, i.e. x/u0 ~ 10^1
+  local slope comes within Delta/4 = 0.00677 of alpha_- at t ~ 1, i.e. x/u0 ~ 10^1

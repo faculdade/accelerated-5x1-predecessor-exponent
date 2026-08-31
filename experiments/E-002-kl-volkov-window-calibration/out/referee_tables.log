@@ -1,0 +1,29 @@
+TABLE 1: every construction at the calibration decade 1e9 -> 1e10, grid b15
+
+construction                    target   reading    offset        95% interval  structural match
+arithmetic tree                unknown   0.64926             [0.64818,0.65027]  exact object
+integer recursion             0.650919   0.65122  +0.00196   [0.65014,0.65223]  identity and congruence
+real-valued relaxation        0.650919   0.64981  +0.00055   [0.64884,0.65075]  identity up to constant, congruence
+unconstrained recursion       0.650919   0.64751  -0.00175   [0.64387,0.65044]  identity, no congruence
+unconstrained relaxation      0.650919   0.64738  -0.00189   [0.64440,0.64993]  identity up to constant, no congruence
+relaxation retuned            0.678000   0.67748  +0.02821   [0.67651,0.67846]  identity up to constant, congruence
+unconstrained retuned         0.678000   0.67358  +0.02432   [0.67044,0.67632]  identity up to constant, no congruence
+
+  target 0.650919: 4 constructions, band [0.64738, 0.65122], width 0.00384
+    the arithmetic tree reads 0.64926, INSIDE this band
+
+  target 0.678: 2 constructions, band [0.67358, 0.67748], width 0.00390
+    the arithmetic tree reads 0.64926, 0.02432 below the floor of this band
+
+
+TABLE 2: the comparison at every checkpoint decade the grid supports
+
+decade        arithmetic             0.650919 band                0.678 band  separation
+1e5->1e6           0.63401   [0.59064,0.61366]   [0.59408,0.64477]    -0.03994
+1e6->1e7           0.62697   [0.61363,0.63749]   [0.63432,0.66268]     0.00735
+1e7->1e8           0.64622   [0.63152,0.64758]   [0.66394,0.67200]     0.01772
+1e8->1e9           0.64880   [0.64219,0.64990]   [0.67157,0.67745]     0.02277
+1e9->1e10          0.64926   [0.64738,0.65122]   [0.67358,0.67748]     0.02432
+
+  separation is measured to the FLOOR of the 0.678 band, which is the
+  conservative direction: it is the smallest gap the two families admit.

@@ -1,0 +1,26 @@
+# E-004, mapa CORRETO da eq (1.1) do Volkov: M(x)=5x+1 se impar, x/2 se par
+# Ciclos calculados a partir de 1, 13, 17 (27 valores, o primeiro completado:
+# o texto dele imprime 1->6->3->1, mas M(3)=16)
+
+## Reproducao das quatro estimativas impressas (ele: 0.741, 0.715, 0.694, 0.680)
+m=1000 T=4.200e+08  good=167 bad=833 other=0  beta=0.74091
+m=10000 T=4.200e+08  good=725 bad=9275 other=0  beta=0.71508
+m=100000 T=4.200e+08  good=2959 bad=97041 other=0  beta=0.69423
+m=1000000 T=4.200e+08  good=12250 bad=987750 other=0  beta=0.68136
+
+## Dependencia do limiar, m fixo em 1e6
+m=1000000 T=4.200e+08  good=12250 bad=987750 other=0  beta=0.68136
+m=1000000 T=1.000e+09  good=12621 bad=987379 other=0  beta=0.68352
+m=1000000 T=1.000e+10  good=13051 bad=986949 other=0  beta=0.68594
+m=1000000 T=1.000e+12  good=13232 bad=986768 other=0  beta=0.68694
+m=1000000 T=1.000e+16  good=13322 bad=986678 other=0  beta=0.68743
+
+## Dependencia do limiar em CADA m (acrescentado 2026-08-29, rodada 5)
+## O paper afirmava que "os mesmos quatro valores carregam o erro do limiar
+## em todo m". Instanciado (Regra 11c, passo 3), e falso no extremo inferior.
+m=1000    T=4.2e8 beta=0.74091   T=1e16 beta=0.74091   diferenca +0.00000
+m=10000   T=4.2e8 beta=0.71508   T=1e16 beta=0.71523   diferenca +0.00015
+m=100000  T=4.2e8 beta=0.69423   T=1e16 beta=0.69635   diferenca +0.00212
+m=1000000 T=4.2e8 beta=0.68136   T=1e16 beta=0.68743   diferenca +0.00607
+## O erro e zero no m menor e cresce monotonamente com m, entao ele nao
+## contamina os quatro por igual: acentua a queda.

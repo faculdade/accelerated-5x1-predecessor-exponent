@@ -1,0 +1,15 @@
+i.i.d. simulator mean count vs exact annealed M(t), root = 1000003
+  seed        n t=1  t=2  t=3  t=4
+    11    20000 1.0004  0.9966  0.9846  0.9563
+    22    20000 0.9121  0.9099  0.8985  0.8723
+    33    20000 1.1438  1.1348  1.1184  1.0857
+    44   200000 0.9611  0.9580  0.9462  0.9191
+
+same quantity at three truncation buffers (seed 44, n=200000):
+  buffer 1e11: 0.9442  0.9199  0.8598  0.7240
+  buffer 1e12: 0.9559  0.9462  0.9196  0.8589
+  buffer 1e13: 0.9611  0.9580  0.9462  0.9191
+
+mode cycq against the closed form with a separate value denominator:
+  qval=5.00000: 1.0304  1.0230  1.0099  0.9806
+  qval=5.05398: 1.0561  1.0400  1.0139  0.9653

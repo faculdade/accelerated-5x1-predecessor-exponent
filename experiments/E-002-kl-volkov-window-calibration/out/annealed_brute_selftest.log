@@ -1,0 +1,44 @@
+NEGATIVE CONTROLS, one per link of the chain
+
+  q=3 t=1: levels 1..60, A up to 98, FAIL exactly  bound differs at level 3: exact 8 vs n_k 9
+  q=3 t=2: levels 1..60, A up to 101, FAIL exactly  bound differs at level 3: exact 11 vs n_k 12
+  q=3 t=3: levels 1..60, A up to 105, FAIL exactly  bound differs at level 3: exact 14 vs n_k 15
+  q=3 t=4: levels 1..60, A up to 108, FAIL exactly  bound differs at level 3: exact 18 vs n_k 19
+  q=5 t=1: levels 1..60, A up to 142, FAIL exactly  bound differs at level 3: exact 10 vs n_k 11
+  q=5 t=2: levels 1..60, A up to 145, FAIL exactly  bound differs at level 3: exact 13 vs n_k 14
+  q=5 t=3: levels 1..60, A up to 149, FAIL exactly  bound differs at level 3: exact 16 vs n_k 17
+  q=5 t=4: levels 1..60, A up to 152, FAIL exactly  bound differs at level 3: exact 20 vs n_k 21
+  q=7 t=1: levels 1..60, A up to 171, FAIL exactly  bound differs at level 3: exact 11 vs n_k 12
+  q=7 t=2: levels 1..60, A up to 175, FAIL exactly  bound differs at level 3: exact 15 vs n_k 16
+  q=7 t=3: levels 1..60, A up to 178, FAIL exactly  bound differs at level 3: exact 18 vs n_k 19
+  q=7 t=4: levels 1..60, A up to 181, FAIL exactly  bound differs at level 3: exact 21 vs n_k 22
+  -> the admission bound N_k, perturbed at k=3: PASS, the check notices
+
+  q=3 t=1: levels 1..60, A up to 98, FAIL exactly  first bad level 3: 57 vs 56
+  q=3 t=2: levels 1..60, A up to 101, FAIL exactly  first bad level 3: 166 vs 165
+  q=3 t=3: levels 1..60, A up to 105, FAIL exactly  first bad level 3: 365 vs 364
+  q=3 t=4: levels 1..60, A up to 108, FAIL exactly  first bad level 3: 817 vs 816
+  q=5 t=1: levels 1..60, A up to 142, FAIL exactly  first bad level 3: 121 vs 120
+  q=5 t=2: levels 1..60, A up to 145, FAIL exactly  first bad level 3: 287 vs 286
+  q=5 t=3: levels 1..60, A up to 149, FAIL exactly  first bad level 3: 561 vs 560
+  q=5 t=4: levels 1..60, A up to 152, FAIL exactly  first bad level 3: 1141 vs 1140
+  q=7 t=1: levels 1..60, A up to 171, FAIL exactly  first bad level 3: 166 vs 165
+  q=7 t=2: levels 1..60, A up to 175, FAIL exactly  first bad level 3: 456 vs 455
+  q=7 t=3: levels 1..60, A up to 178, FAIL exactly  first bad level 3: 817 vs 816
+  q=7 t=4: levels 1..60, A up to 181, FAIL exactly  first bad level 3: 1331 vs 1330
+  -> the DP's tuple count, perturbed at k=3: PASS, the check notices
+
+  q=3 t=1: levels 1..60, A up to 98, FAIL exactly  first bad level 3: 56 vs 84
+  q=3 t=2: levels 1..60, A up to 101, FAIL exactly  first bad level 3: 165 vs 220
+  q=3 t=3: levels 1..60, A up to 105, FAIL exactly  first bad level 3: 364 vs 455
+  q=3 t=4: levels 1..60, A up to 108, FAIL exactly  first bad level 3: 816 vs 969
+  q=5 t=1: levels 1..60, A up to 142, FAIL exactly  first bad level 3: 120 vs 165
+  q=5 t=2: levels 1..60, A up to 145, FAIL exactly  first bad level 3: 286 vs 364
+  q=5 t=3: levels 1..60, A up to 149, FAIL exactly  first bad level 3: 560 vs 680
+  q=5 t=4: levels 1..60, A up to 152, FAIL exactly  first bad level 3: 1140 vs 1330
+  q=7 t=1: levels 1..60, A up to 171, FAIL exactly  first bad level 3: 165 vs 220
+  q=7 t=2: levels 1..60, A up to 175, FAIL exactly  first bad level 3: 455 vs 560
+  q=7 t=3: levels 1..60, A up to 178, FAIL exactly  first bad level 3: 816 vs 969
+  q=7 t=4: levels 1..60, A up to 181, FAIL exactly  first bad level 3: 1330 vs 1540
+  -> the hockey-stick collapse C(N,k), perturbed at k=3: PASS, the check notices
+

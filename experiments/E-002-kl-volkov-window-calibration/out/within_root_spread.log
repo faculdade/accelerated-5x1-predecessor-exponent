@@ -1,0 +1,26 @@
+arith, across 300 deterministic roots: sd log10 N(1e8) = 0.5869, sd of per-root slope = 0.0574
+
+   root  arith log10N  arith slope    ctrl  within sd log10N  within sd slope  pct of arith N  pct of arith slope
+   1077        3.6704      0.63819     cyc            0.5764          0.03949           60.9%               50.1%
+                                       iid            0.7577          0.08092           65.1%               55.3%
+   1699        3.3197      0.60946     cyc            0.5731          0.04328           44.7%               23.1%
+                                       iid            0.7203          0.08366           52.8%               34.7%
+    303        3.5882      0.62973     cyc            0.5911          0.02768           29.0%               24.1%
+                                       iid            0.7584          0.06014           39.2%               34.7%
+   9511        1.4472      0.38204     cyc            0.5714          0.06657            0.1%                0.4%
+                                       iid            0.7366          0.11283            4.6%                6.2%
+   2921        2.1847      0.49524     cyc            0.5833          0.05405            2.8%                3.1%
+                                       iid            0.7481          0.09250           10.9%               10.4%
+   9989        3.3995      0.67926     cyc            0.5773          0.06705           80.5%               81.7%
+                                       iid            0.7318          0.11256           80.3%               80.9%
+   9469        2.4393      0.65407     cyc            0.5829          0.06820           20.5%               68.8%
+                                       iid            0.7350          0.11121           30.9%               71.4%
+    881        3.3284      0.60774     cyc            0.5967          0.03737           32.4%               18.2%
+                                       iid            0.7460          0.07415           42.3%               29.8%
+   3817        2.6830      0.54722     cyc            0.5852          0.05495           19.0%                7.7%
+                                       iid            0.7446          0.09768           30.0%               18.8%
+   6823        4.5067      0.64855     cyc            0.5869          0.06177           98.9%               64.0%
+                                       iid            0.7400          0.10806           98.8%               65.1%
+
+cyc: mean within-root sd log10 N(1e8) = 0.5824, mean within-root sd of slope = 0.0520, median percentile of the arithmetic value = 30.7% (count), 23.6% (slope)
+iid: mean within-root sd log10 N(1e8) = 0.7419, mean within-root sd of slope = 0.0934, median percentile of the arithmetic value = 40.8% (count), 34.7% (slope)

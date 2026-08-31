@@ -1,0 +1,32 @@
+5 das 300 raizes, as mesmas que o painel de convergencia do script de producao usa: [2051, 8333, 1781, 3759, 9947]
+checkpoints [10000, 100000, 1000000, 10000000, 100000000]
+buffers 1e9..1e13
+
+  raiz   2051 buffer 1e9: [3, 10, 41, 208, 852]  igual
+  raiz   2051 buffer 1e10: [3, 10, 41, 215, 978]  igual
+  raiz   2051 buffer 1e11: [3, 10, 41, 215, 997]  igual
+  raiz   2051 buffer 1e12: [3, 10, 41, 219, 1046]  igual
+  raiz   2051 buffer 1e13: [3, 10, 41, 225, 1082]  igual
+  raiz   8333 buffer 1e9: [24, 107, 434, 1888, 7021]  igual
+  raiz   8333 buffer 1e10: [24, 110, 461, 2098, 8829]  igual
+  raiz   8333 buffer 1e11: [24, 118, 538, 2548, 11170]  igual
+  raiz   8333 buffer 1e12: [24, 118, 539, 2567, 11448]  igual
+  raiz   8333 buffer 1e13: [24, 118, 539, 2577, 11627]  igual
+  raiz   1781 buffer 1e9: [7, 18, 109, 422, 1599]  igual
+  raiz   1781 buffer 1e10: [7, 18, 109, 450, 1911]  igual
+  raiz   1781 buffer 1e11: [7, 18, 109, 452, 1993]  igual
+  raiz   1781 buffer 1e12: [7, 18, 110, 468, 2121]  igual
+  raiz   1781 buffer 1e13: [7, 18, 110, 468, 2123]  igual
+  raiz   3759 buffer 1e9: [19, 118, 508, 2034, 7682]  igual
+  raiz   3759 buffer 1e10: [19, 118, 513, 2152, 9006]  igual
+  raiz   3759 buffer 1e11: [19, 118, 515, 2171, 9283]  igual
+  raiz   3759 buffer 1e12: [19, 122, 545, 2319, 10250]  igual
+  raiz   3759 buffer 1e13: [19, 122, 545, 2321, 10298]  igual
+  raiz   9947 buffer 1e9: [1, 2, 13, 43, 160]  igual
+  raiz   9947 buffer 1e10: [1, 2, 13, 44, 186]  igual
+  raiz   9947 buffer 1e11: [1, 2, 13, 46, 216]  igual
+  raiz   9947 buffer 1e12: [1, 2, 13, 46, 218]  igual
+  raiz   9947 buffer 1e13: [1, 2, 13, 46, 218]  igual
+
+5 raizes x 5 buffers x 5 checkpoints = 125 contagens, 9.7s
+VALIDACAO OK: concorda contagem por contagem

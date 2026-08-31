@@ -1,0 +1,27 @@
+=== Portao com Richardson (path-max, uma passada): 300 raizes, search_bound=1e+13 ===
+Buffers testados: [9, 10, 11, 12, 13]  Janela: 1e5..1e8
+
+  [  50.5s] 300/300 raizes em 16 processos
+
+=== Curva media por buffer (n=300, tempo=50.5s) ===
+  buffer=1e9: media=0.60049  n=300
+  buffer=1e10: media=0.62387  n=300
+  buffer=1e11: media=0.63261  n=300
+  buffer=1e12: media=0.63650  n=300
+  buffer=1e13: media=0.63801  n=300
+
+incrementos: ['0.02338', '0.00874', '0.00388', '0.00151']
+Aitken (ultimos 3 pontos, B11-13): correcao->  s_inf = 0.63896
+Aitken (B10-12): s_inf = 0.63961
+
+=== Bootstrap do valor extrapolado (Aitken B11-13, por raiz reamostrada) ===
+n_boot_validos=2000  media=0.63891  IC95%=[0.63283, 0.64522]
+distancia de 0.678 (Volkov) ao limite superior do IC: 0.0328
+distancia de 0.650919 (KL/pressao) ao centro: 0.0120
+
+=== Painel de slopes por decada dentro da janela (buffer=1e13, teste de pre-assintotica) ===
+(se o slope por decada ainda cresce com k, o residuo ate 0.6509 e' pre-assintotico, nao truncamento)
+  decada 1e4->1e5: slope_medio=0.6021  n=40
+  decada 1e5->1e6: slope_medio=0.6296  n=40
+  decada 1e6->1e7: slope_medio=0.6432  n=40
+  decada 1e7->1e8: slope_medio=0.6460  n=40

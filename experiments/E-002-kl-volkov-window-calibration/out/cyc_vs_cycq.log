@@ -1,0 +1,9 @@
+window estimator at buffer 1e13, 300 roots, by seed
+
+                    mode     2026        7       19       44      101      555     mean      sd
+                     cyc  0.62829  0.63176  0.63426  0.63855  0.62714  0.63072  0.63179 0.00380
+               cycq(5.0)  0.63789  0.63998  0.63302  0.62852  0.63944  0.63266  0.63525 0.00416
+  cycq(5.0) floored at 1  0.63789  0.63998  0.63302  0.62851  0.63944  0.63266  0.63525 0.00416
+
+cycq(5.0) minus cyc: +0.00347, standard error of that difference 0.00230  (1.5 sigma)
+The single-pair gap that prompted this check was +0.0096.

@@ -1,0 +1,7 @@
+root    103: python == C ? True   N(1e8,1e13)=33699
+root   1237: python == C ? True   N(1e8,1e13)=44692
+root   4441: python == C ? True   N(1e8,1e13)=356
+root   7919: python == C ? True   N(1e8,1e13)=356
+root   9973: python == C ? True   N(1e8,1e13)=2393
+
+VALIDATION PASSED

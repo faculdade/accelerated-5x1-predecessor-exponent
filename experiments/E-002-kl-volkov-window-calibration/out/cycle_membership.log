@@ -1,0 +1,18 @@
+E-002 replica matches the root column of all 15 committed data/q5_*.txt files
+E-001 replica matches E-001's own sample_roots
+accelerated 5x+1, 5000 steps per root, known cycles [1, 3, 13, 17, 27, 33, 43, 83]
+
+E-001 sample, Python random.Random(2026)  (backs sections 4 and 5)
+  reach a known cycle : 19
+  still growing       : 281
+  digit range         : 425 to 549
+  deepest entry into a cycle: 42 steps; extending the cutoff to 10000 finds no further root, so 5000 is not binding
+
+E-002 sample, tree_counts.c splitmix64 seed 2026  (backs section 6 and the data/q5_* files)
+  reach a known cycle : 18
+  still growing       : 282
+  digit range         : 423 to 549
+  deepest entry into a cycle: 37 steps; extending the cutoff to 10000 finds no further root, so 5000 is not binding
+
+roots common to both samples: 31 of 300
+The two samples are different sets. Section 6's sentence takes the E-002 numbers.

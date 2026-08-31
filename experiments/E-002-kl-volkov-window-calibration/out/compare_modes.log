@@ -1,0 +1,8 @@
+   mode  mean N(1e5)  mean N(1e8)  gmean N(1e5)  gmean N(1e8)  N=0 at 1e5  sd log10 N(1e8)  mean slope
+  arith         44.1       4071.7        1.3218        3.2347           0           0.5941     0.63766
+    cyc        227.4      20361.4        1.3528        3.2453           0           0.6790     0.63083
+   cycq         43.2       3862.9        1.3046        3.2014           0           0.5976     0.63226
+   cycq         77.7       8529.9        1.3936        3.3713           0           0.6713     0.65925
+    iid         73.3       6652.3        1.2723        3.1093           0           0.7845     0.61235
+
+(gmean columns are means of log10 N, i.e. logs of geometric means)

@@ -1,0 +1,33 @@
+brute-force double sum vs closed form, exact rational arithmetic
+DP table: k up to 60, A up to 181
+the brute side takes its bound from 2^A <= 10^t q^k in exact integers;
+the closed side takes it from the floating-point n_k under test
+
+  q=3 t=1: levels 1..60, A up to 98, MATCH exactly
+            truncated M(t) = 33.603475826246 by both routes
+  q=3 t=2: levels 1..60, A up to 101, MATCH exactly
+            truncated M(t) = 332.210833179792 by both routes
+  q=3 t=3: levels 1..60, A up to 105, MATCH exactly
+            truncated M(t) = 3164.842566714440 by both routes
+  q=3 t=4: levels 1..60, A up to 108, MATCH exactly
+            truncated M(t) = 29210.934598730131 by both routes
+
+  q=5 t=1: levels 1..60, A up to 142, MATCH exactly
+            truncated M(t) = 18.736273663071 by both routes
+  q=5 t=2: levels 1..60, A up to 145, MATCH exactly
+            truncated M(t) = 83.057189008521 by both routes
+  q=5 t=3: levels 1..60, A up to 149, MATCH exactly
+            truncated M(t) = 350.200618003753 by both routes
+  q=5 t=4: levels 1..60, A up to 152, MATCH exactly
+            truncated M(t) = 1435.698460774389 by both routes
+
+  q=7 t=1: levels 1..60, A up to 171, MATCH exactly
+            truncated M(t) = 4.745083320377 by both routes
+  q=7 t=2: levels 1..60, A up to 175, MATCH exactly
+            truncated M(t) = 12.714704201628 by both routes
+  q=7 t=3: levels 1..60, A up to 178, MATCH exactly
+            truncated M(t) = 31.701866680717 by both routes
+  q=7 t=4: levels 1..60, A up to 181, MATCH exactly
+            truncated M(t) = 75.064089854954 by both routes
+
+all (q,t) agree exactly

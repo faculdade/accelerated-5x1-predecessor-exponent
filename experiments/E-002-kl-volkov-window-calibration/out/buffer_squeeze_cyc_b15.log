@@ -1,0 +1,15 @@
+=== buffer-squeeze test on data/q5_cyc_b15.txt (mode cyc) ===
+For each decade: Aitken on every usable buffer, versus Aitken on only
+the three buffers sitting 3, 4 and 5 decades above the decade's top,
+which is all the deepest decade of this run has.
+
+        decade  all buffers  headroom 3-5  difference
+  1e5->1e6              0.6137        0.6193     +0.0056
+  1e6->1e7              0.6345        0.6329     -0.0016
+  1e7->1e8              0.6448        0.6445     -0.0003
+  1e8->1e9              0.6497        0.6499     +0.0002
+  1e9->1e10             0.6512        0.6512     +0.0000
+
+A positive difference means the squeezed extrapolation over-reads, so
+the deep decades of this run carry that much upward extrapolation error
+on top of their bootstrap band.

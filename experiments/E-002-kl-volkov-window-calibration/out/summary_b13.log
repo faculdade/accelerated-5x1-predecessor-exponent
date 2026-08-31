@@ -1,0 +1,14 @@
+Same estimator, same 300 roots, window 1e5..1e8, grid b13,
+Aitken in the truncation buffer, 2000-resample bootstrap over roots.
+
+       process  pressure target             window estimator              decade 1e7->1e8
+  cycq 5.00000       0.650919   0.63950 [0.63357,0.64647]   0.64796 [0.64426,0.65204]
+  cycq 5.05398       0.678000   0.65943 [0.65290,0.66630]   0.67079 [0.66649,0.67585]
+           cyc       0.650919   0.62943 [0.62213,0.63650]   0.64437 [0.64067,0.64819]
+           iid       0.650919   0.61308 [0.60233,0.62415]   0.64068 [0.63276,0.64962]
+  iidq 5.00000       0.650919   0.60556 [0.59450,0.61633]   0.63202 [0.62334,0.64020]
+  iidq 5.05398       0.678000   0.63264 [0.62091,0.64430]   0.65269 [0.64346,0.66146]
+         arith       disputed   0.63824 [0.63183,0.64474]   0.64791 [0.64391,0.65241]
+
+The two cycq rows bracket what the estimator returns for the two
+disputed exponents. The arithmetic row is read against them.

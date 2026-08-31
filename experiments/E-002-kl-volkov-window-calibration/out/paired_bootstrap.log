@@ -1,0 +1,85 @@
+decade 1e9 -> 1e10, 300 roots shared by all 7 datasets
+point readings match out/summary_b15_d10.log for all 7 datasets
+
+per-root reading, Pearson r between modes on the shared root list
+  (pairing cancels variance only if these are far from zero)
+    arith    x cyc      r = +0.002
+    arith    x cycq500  r = +0.102
+    arith    x cycq505  r = -0.065
+    arith    x iid      r = -0.016
+    arith    x iidq500  r = -0.005
+    arith    x iidq505  r = -0.040
+    cyc      x cycq500  r = -0.052
+    cyc      x cycq505  r = +0.070
+    cyc      x iid      r = -0.036
+    cyc      x iidq500  r = +0.070
+    cyc      x iidq505  r = +0.074
+    cycq500  x cycq505  r = +0.149
+    cycq500  x iid      r = +0.081
+    cycq500  x iidq500  r = -0.045
+    cycq500  x iidq505  r = +0.017
+    cycq505  x iid      r = -0.020
+    cycq505  x iidq500  r = +0.009
+    cycq505  x iidq505  r = +0.042
+    iid      x iidq500  r = +0.088
+    iid      x iidq505  r = +0.043
+    iidq500  x iidq505  r = +0.461
+
+marginal bootstrap sd, then EVERY pair: the paired-difference sd
+against the value it would take if the two sides were independent.
+All 21, because round 21 (R21-01) found this block printing
+three, all of them pairs where nothing narrows, under a paper sentence
+that generalized to every pair.
+    arith    sd 0.00053
+    cyc      sd 0.00054
+    cycq500  sd 0.00048
+    cycq505  sd 0.00050
+    iid      sd 0.00171
+    iidq500  sd 0.00140
+    iidq505  sd 0.00151
+
+    pair                     rho    paired  independent   change
+    arith-cyc             +0.002   0.00076      0.00075    -1.1%
+    arith-cycq500         +0.102   0.00068      0.00071    +4.8%
+    arith-cycq505         -0.065   0.00076      0.00073    -4.0%
+    arith-iid             -0.016   0.00179      0.00179    +0.1%
+    arith-iidq500         -0.005   0.00150      0.00150    -0.5%
+    arith-iidq505         -0.040   0.00163      0.00160    -1.9%
+    cyc-cycq500           -0.052   0.00071      0.00072    +0.5%
+    cyc-cycq505           +0.070   0.00069      0.00074    +5.5%
+    cyc-iid               -0.036   0.00177      0.00179    +0.9%
+    cyc-iidq500           +0.070   0.00146      0.00150    +2.4%
+    cyc-iidq505           +0.074   0.00158      0.00160    +1.6%
+    cycq500-cycq505       +0.149   0.00064      0.00069    +6.9%
+    cycq500-iid           +0.081   0.00173      0.00177    +2.6%
+    cycq500-iidq500       -0.045   0.00148      0.00148    +0.1%
+    cycq500-iidq505       +0.017   0.00158      0.00158    -0.2%
+    cycq505-iid           -0.020   0.00176      0.00178    +1.4%
+    cycq505-iidq500       +0.009   0.00151      0.00149    -1.6%
+    cycq505-iidq505       +0.042   0.00158      0.00159    +0.6%
+    iid-iidq500           +0.088   0.00209      0.00221    +5.5%
+    iid-iidq505           +0.043   0.00222      0.00228    +2.6%
+    iidq500-iidq505       +0.461   0.00160      0.00206   +22.0%
+
+    joint resampling moves a pairwise sd by at most 22.0% either way.
+    for the separation quoted in the paper (cycq505-arith) it goes
+    0.00073 -> 0.00076, i.e. it WIDENS. Pairing does not help there.
+
+target shift 0.678 - 0.650919 = 0.027081
+observed shift minus target shift, within each matched structural pair:
+    congruence-matched   observed 0.02766, minus target shift +0.000581   95% [-0.000649,+0.001890]  covers zero
+    unconstrained        observed 0.02620, minus target shift -0.000878   95% [-0.004059,+0.002283]  covers zero
+    A target move of 0.027081 therefore transmits to the estimator
+    close to one for one, in both structures.
+
+separation cycq505 - arith : 0.02821   95% [0.02675, 0.02970]   (one construction, secondary)
+CONSERVATIVE separation   : 0.02432   95% [0.02084, 0.02731]
+  = min over the two 0.678 constructions, minus the arithmetic tree,
+    taken inside each resample rather than on the point readings.
+    This is the quantity the paper now headlines, so it is the one
+    that carries the interval (round 22, external critique).
+wider band width           : 0.00384   95% [0.00210, 0.00793]
+ratio, separation / band   : 7.3   95% [3.6, 13.4]
+
+The separation is tight. The ratio is not a two-figure quantity, which
+is why the paper quotes the separation's interval and not the ratio.

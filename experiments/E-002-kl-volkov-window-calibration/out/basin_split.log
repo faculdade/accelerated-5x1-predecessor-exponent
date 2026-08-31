@@ -1,0 +1,17 @@
+arithmetic tree, decade 1e9 -> 1e10, b15 grid
+
+  all 300 roots           0.64926   (reproduces out/summary_b15_d10.log)
+  the 18 basin roots      0.65083   these are the roots Volkov's Q-tilde counts
+  the 282 remaining roots 0.64917   (not proven to escape; none is)
+  difference             +0.00165
+  95% bootstrap interval [-0.00219, +0.00540]
+  the basin arm alone: 0.65083, 95% [0.64699, 0.65432], half-width 0.00367
+
+  WHAT THIS DOES AND DOES NOT SHOW. The test does not separate the
+  two subsamples, and at n=18 it could not: the interval on the
+  difference, [-0.00219, +0.00540], admits values larger than the
+  calibration band itself (0.00371). Failure to separate is weaker
+  than agreement. The basin arm's own half-width, 0.00367, is
+  larger than its distance from eta_5,BP, so that distance carries no
+  information either. What can be said: nothing in this sample
+  contradicts the transfer Conjecture 7.2 is invoked to make.

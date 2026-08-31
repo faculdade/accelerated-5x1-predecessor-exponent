@@ -1,0 +1,44 @@
+
+=== q=11  d=10  scalar alpha_- = 0.195852438  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (110 parent classes mod 121)
+     K=2: CLOSES   (1210 parent classes mod 1331)
+     K=3: CLOSES   (13310 parent classes mod 14641)
+  Q2 fertility pattern from u mod q^2=121: CLOSES  (110 classes)
+  Q3 child-type spread given parent type: 110 parent types, mean max-deviation 0.0319, worst 0.0331  (0 = perfectly uniform)
+  matrix (jmax=22): 110 types, Perron root s = 0.994380050   (s - alpha_-) = +0.798527612
+  matrix (jmax=44): 110 types, Perron root s = 0.994380050   (s - alpha_-) = +0.798527612
+  matrix (jmax=88): 110 types, Perron root s = 0.994380050   (s - alpha_-) = +0.798527612
+
+=== q=13  d=12  scalar alpha_- = 0.157208189  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (156 parent classes mod 169)
+     K=2: CLOSES   (2028 parent classes mod 2197)
+     K=3: CLOSES   (20000 parent classes mod 28561)
+  Q2 fertility pattern from u mod q^2=169: CLOSES  (156 classes)
+  Q3 child-type spread given parent type: 156 parent types, mean max-deviation 0.0435, worst 0.0859  (0 = perfectly uniform)
+  matrix (jmax=26): no sign change, ends (-0.13596422880476067, -0.001984465418417236)
+  matrix (jmax=52): no sign change, ends (-0.13596422880476067, -0.001984465418417236)
+  matrix (jmax=104): no sign change, ends (-0.13596422880476067, -0.001984465418417236)
+
+=== q=23  d=11  scalar alpha_- = 0.077948120  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (253 parent classes mod 529)
+     K=2: CLOSES   (5819 parent classes mod 12167)
+     K=3: CLOSES   (20000 parent classes mod 279841)
+  Q2 fertility pattern from u mod q^2=529: CLOSES  (253 classes)
+  Q3 child-type spread given parent type: 253 parent types, mean max-deviation 0.1572, worst 0.1646  (0 = perfectly uniform)
+  matrix (jmax=46): 253 types, Perron root s = 0.981761230   (s - alpha_-) = +0.903813110
+  matrix (jmax=92): 253 types, Perron root s = 0.981761230   (s - alpha_-) = +0.903813110
+  matrix (jmax=184): 253 types, Perron root s = 0.981761230   (s - alpha_-) = +0.903813110
+
+=== q=31  d=5  scalar alpha_- = 0.055178867  (20000 roots sampled) ===
+  Q1 graded closure: u mod q^(K+1) -> child mod q^K
+     K=1: CLOSES   (155 parent classes mod 961)
+     K=2: CLOSES   (4805 parent classes mod 29791)
+     K=3: CLOSES   (20000 parent classes mod 923521)
+  Q2 fertility pattern from u mod q^2=961: CLOSES  (155 classes)
+  Q3 child-type spread given parent type: 155 parent types, mean max-deviation 0.1532, worst 0.2016  (0 = perfectly uniform)
+  matrix (jmax=62): 155 types, Perron root s = 0.998800777   (s - alpha_-) = +0.943621910
+  matrix (jmax=124): 155 types, Perron root s = 0.998800777   (s - alpha_-) = +0.943621910
+  matrix (jmax=248): 155 types, Perron root s = 0.998800777   (s - alpha_-) = +0.943621910

@@ -1,0 +1,15 @@
+=== Parte 1: expoente local de crescimento, q=5 (previsto 0.6509) ===
+raiz 7: N(1e10)=266827, slopes/decada = 0.683 0.640 0.621 0.632 0.620 0.579 0.421
+raiz 11: N(1e10)=26287, slopes/decada = 0.301 0.699 0.562 0.630 0.627 0.574 0.424
+raiz 19: N(1e10)=56073, slopes/decada = 0.301 0.635 0.614 0.658 0.636 0.580 0.422
+
+=== q=7 (previsto 0.3735) ===
+raiz 9: N(1e12)=2105, slopes/decada = 0.273 0.301 0.322 0.311 0.286 0.337 0.330 0.260
+raiz 11: N(1e12)=83466, slopes/decada = 0.379 0.385 0.362 0.368 0.372 0.375 0.360 0.272
+raiz 15: N(1e12)=91878, slopes/decada = 0.378 0.399 0.364 0.364 0.368 0.371 0.357 0.272
+
+=== Parte 2: Hill sobre W_v = N_v(vH)/H^0.650919, q=5, H=1e6 ===
+n=600, W: min=0.0389 mediana=0.8756 max=63.7280
+Hill top 2% (k=12): alpha_cauda = 1.547   (previsto 1.536)
+Hill top 5% (k=30): alpha_cauda = 1.475   (previsto 1.536)
+Hill top 10% (k=60): alpha_cauda = 1.766   (previsto 1.536)

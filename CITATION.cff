@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: >-
+  Reproducibility deposit for "A calibrated computational study of the
+  accelerated 5x+1 predecessor-count exponent"
+message: If you use this software or data, please cite the accompanying paper.
+type: software
+authors:
+  - given-names: Renato Augusto
+    family-names: Tavares
+    email: rat@discente.ufg.br
+    affiliation: Universidade Federal de Goias
+    orcid: https://orcid.org/0009-0002-0196-3311
+repository-code: https://github.com/faculdade/accelerated-5x1-predecessor-exponent
+license: MIT
+license-url: https://github.com/faculdade/accelerated-5x1-predecessor-exponent/blob/main/LICENSE
+keywords:
+  - Collatz conjecture
+  - 5x+1 map
+  - predecessor tree
+  - counting exponent
+  - branching random walk
