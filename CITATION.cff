@@ -4,16 +4,15 @@ title: >-
   accelerated 5x+1 predecessor-count exponent"
 message: If you use this software or data, please cite the accompanying paper.
 type: software
-version: v1.0.0
+version: v1.0.1
 date-released: '2026-08-31'
+# Concept DOI on purpose: it is stable across releases, so this file does
+# not have to name a version DOI that only exists after the release is cut.
 doi: 10.5281/zenodo.22182794
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22182795
-    description: Archived snapshot of release v1.0.0
-  - type: doi
     value: 10.5281/zenodo.22182794
-    description: All versions of this deposit
+    description: Concept DOI, resolves to the latest version of this deposit
 authors:
   - given-names: Renato Augusto
     family-names: Tavares
