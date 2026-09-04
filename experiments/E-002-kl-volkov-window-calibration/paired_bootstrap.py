@@ -31,7 +31,7 @@ the script checks that and aborts if not.
 
 Serial (Rule 9c): 4000 joint resamples over 300 roots and all seven datasets is arithmetic
 on precomputed per-root curves and takes about 0.9 s, far under the one-minute
-line at which .claude/rules/experiments.md asks for parallel decomposition.
+line at which this project asks for parallel decomposition.
 
 Run: python3 paired_bootstrap.py
 """

@@ -224,8 +224,8 @@ def main():
     `type_closure.py 5 7 11 13 23 31`, que leva 288 s, cinco vezes ACIMA
     da linha. Foi medida a invocacao errada.
 
-    A forma e uma varredura de valores independentes, que a
-    .claude/rules/experiments.md classifica como sempre paralela. A saida e
+    A forma e uma varredura de valores independentes, que este
+    projeto classifica como sempre paralela. A saida e
     escrita na ordem dos argumentos, entao o log reproduz identico.
     """
     qs = [int(x) for x in sys.argv[1:]] or [3, 5, 7]

@@ -33,7 +33,7 @@ What each replica is checked against matters as much as that it is checked:
 
 The E-002 check deliberately does NOT compare against a re-transcription of
 tree_counts.c's sampler into this file. A transcription agreeing with itself
-proves nothing (CLAUDE.md Rule 8g, item 1: observe the artifact, never the
+proves nothing (Rule 8g, item 1: observe the artifact, never the
 process). `--verify-c` still compiles such a probe, and it is an extra, not the
 check.
 
@@ -46,7 +46,7 @@ the check fails exactly when a root enters a cycle past 5000.
 
 Serial (Rule 9c): 600 orbits at the 5000-step cutoff plus 600 more at the
 10000-step audit, on integers reaching ~1100 digits, take about 9 s together,
-under the one-minute line at which .claude/rules/experiments.md asks for
+under the one-minute line at which this project asks for
 parallel decomposition.
 
 Run: python3 cycle_membership.py

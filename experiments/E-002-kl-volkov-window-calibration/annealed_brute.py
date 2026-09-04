@@ -28,7 +28,7 @@ The inner count is rebuilt by dynamic programming over the tuples themselves,
 
 which is the definition, not the formula. Everything runs in `fractions.Fraction`,
 so the comparison is exact: an identity checked in floating point is a claim about
-rounding, not about the identity (CLAUDE.md Rule 11c).
+rounding, not about the identity (Rule 11c).
 
 Two checks per (q, t): each level k separately, and the truncated total.
 

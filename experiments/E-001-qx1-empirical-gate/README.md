@@ -102,7 +102,7 @@ Date:         2026-08-29
 Environment:  Linux 7.0.0-30-generic, Intel Core 7 240H (16 threads), 62 GiB RAM; Python 3.12.3, numpy 2.5.1, scipy 1.18.0; gcc with -O3 -march=native -fopenmp
 Parallelism:  parallel over roots, 16 worker processes via
               multiprocessing.Pool. The shape is independent trials, one
-              per root, which .claude/rules/experiments.md classifies as
+              per root, which this project classifies as
               always parallel. Wall clock fell from 311.3 s serial to
               51.0 s. Pool.map preserves input order, so the bootstrap
               resamples the same list it saw serially and every number

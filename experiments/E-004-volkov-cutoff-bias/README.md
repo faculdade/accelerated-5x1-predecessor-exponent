@@ -119,7 +119,7 @@ Parallelism:  serial, pela razao MEDIDA: o `./run.sh` declarado acima,
               que faz DEZESSETE invocacoes do programa, leva 3.57 s
               (cronometrado na rodada 15), contra a linha de "roughly a
               minute of projected wall
-              clock" que .claude/rules/experiments.md fixa para
+              clock" que este projeto fixa para
               paralelizar primeiro (Rule 9c).
 
               A rodada 15 (R15-06) apontou que o numero anterior, 1.87 s,
